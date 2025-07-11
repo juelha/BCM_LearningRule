@@ -222,6 +222,13 @@ When looking at the activtiy of the neurons for 5 epochs (left) it looks like th
     <figcaption>The activity of the neurons converge. Left trained for 5 epochs, right for 50 epochs.  </figcaption>
 </a></p></div>
 
+
+<div align="center">
+<img src="figs\MNIST.png" width="450"/>
+<figcaption>The weights of all neuros after training.  </figcaption>
+</a></p></div>
+
+
 ## Comparison 
 
 For comparison purposes, the learning rate is $\eta$ = 0.05 for all models, which have been trained for 5 epochs with a batchsize of 100.
