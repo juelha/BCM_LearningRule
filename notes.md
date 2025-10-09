@@ -34,8 +34,6 @@ $$
 \frac{dw_i}{dt} = \frac{y (y-  \theta) x_i}{\theta}
 $$
 
-The Law and Cooper form has all of the same fixed points as the Intrator and Cooper form, but speed of synaptic modification increases when the threshold is small, and decreases as the threshold increases. The practical result is that the simulation can be run with artificially high learning rates, and wild oscillations are reduced. This form has been used primarily when running simulations of networks, where the run-time of the simulation can be prohibitive. ascholarped
-
 ### Squadrani et al version
 $$
 z = ReLU(\sum_i w_i x_i)
@@ -91,7 +89,7 @@ Additionally, the modification function is also often displayed as a combination
 <figcaption>Modification function according to the book Neuronal Dynamics by Gerstner et al. (2014) </figcaption>
 </a></p></div>
 
-From the explanation in the paper "The response of favored patterns grows until the mean response is high enough and the state stabilizes" (p. 36) I would assume 
+explanation in the paper: "The response of favored patterns grows until the mean response is high enough and the state stabilizes" (p. 36) 
 
 
 ####  Sliding Modification Threshold $\theta$

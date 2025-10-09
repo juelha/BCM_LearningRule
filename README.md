@@ -6,14 +6,13 @@
 ### About
 - Final Project for the course Neural Information Processing 2025
 - Demonstrates how the threshold adapts based on postsynaptic activity history and how weights develop orientation selectivity
-- Check out the full [report]() 
+- BCM Implementation is based on the [plasticity package](https://github.com/Nico-Curti/plasticity/blob/main/plasticity/model/bcm.py), which I rewrote, translated into PyTorch and to which I added timescales for threshold and weight adaption 
+- Check out the full [report](\report.md) 
 
 
 
 ---
 ### Weights develop orientation selectivity
-For the dataset I chose synthetic oriented gratings as inputs. I then chose to construct an MNIST-like dataset, with 28x28 pixel per image and to repeat the orientations to have 400 samples in total. The dataset then had the shape (400, 784).
-
 
 <div align="center">
 <img src="figs\gratings.png" width="450"/>
